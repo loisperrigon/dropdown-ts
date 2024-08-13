@@ -1,6 +1,6 @@
 {
   "name": "dropdownopenclassroom",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "A customizable dropdown component for React.",
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
