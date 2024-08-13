@@ -1,10 +1,18 @@
 # Composant Dropdown
 
+## Prérequis
+
+Node.js (14.x ou supérieur)
+React (18.x ou supérieur)
+
 ## Installation
 
-### Installer les Dépendances
+```bash
+npm i dropdownopenclassroom
 
-Assurez-vous d'avoir installé `react`, `react-dom`, et `react-icons` :
+```
+
+### Installer les Dépendances
 
 ```javascript
 import React, { useState } from "react";
