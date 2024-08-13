@@ -1,0 +1,59 @@
+.dropdownOpenclassroom-container {
+  position: relative;
+}
+
+.dropdownOpenclassroom-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc; /* Utilisation de la valeur pour la bordure */
+  cursor: pointer;
+  background-color: #fff; /* Utilisation de la valeur pour l'arrière-plan */
+  color: #000;
+  user-select: none;
+  border-radius: 0.5rem;
+}
+
+.dropdownOpenclassroom-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.5rem;
+}
+
+.dropdownOpenclassroom-arrow.up {
+  transform: rotate(-360deg);
+}
+
+.dropdownOpenclassroom-options {
+  /* Styles pour la barre de défilement */
+  position: absolute;
+  top: calc(100% + 5px); /* Position juste en dessous de l'en-tête */
+  left: 0;
+  width: 100%;
+  border-radius: 0.5rem;
+  max-height: 200px; /* Hauteur maximale des options */
+  overflow-y: auto;
+  border: 1px solid #ccc; /* Utilisation de la valeur pour la bordure */
+  background-color: #fff; /* Utilisation de la valeur pour l'arrière-plan */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  color: #000;
+}
+
+.dropdownOpenclassroom-options li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem; /* Ajustez le padding selon vos besoins */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Utilisation de la valeur pour la transition */
+}
+
+.dropdownOpenclassroom-options li:hover {
+  background-color: #f0f0f0; /* Utilisation de la valeur pour la couleur au survol */
+}
