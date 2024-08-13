@@ -1,6 +1,7 @@
 {
   "name": "dropdownopenclassroom",
-  "version": "1.0.6",
+  "version": "1.0.7",
+  "description": "A customizable dropdown component for React.",
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
   "files": [
@@ -18,5 +19,11 @@
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "typescript": "^4.0.0"
-  }
+  },
+  "keywords": [
+    "react",
+    "dropdown",
+    "component"
+  ],
+  "author": "PERRIGON Lois <lois.perrigon@gmail.com>"
 }
